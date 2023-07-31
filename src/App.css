@@ -1,0 +1,226 @@
+.App {
+  /* text-align: center; */
+  /* background-color: #1a1a1a; */
+  display: flex;
+  flex-direction: column;
+  font-family: "VTF Font";
+  /* flex: 1; */
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  padding: 10px 80px;
+  background-color: #1a1a1a;
+}
+
+.logo {
+  height: 10vmin;
+  pointer-events: none;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoTitle {
+  color: #a0a36a; /* #ffffffe0; */
+  font-family: "VTF Font";
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+navigation a {
+  margin: 0 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: #e4e1e1;
+  font-size: 18px;
+  font-family: "VTF Font";
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.link:hover {
+  color: #a0a36a;
+  text-decoration: underline;
+}
+
+.content-container {
+  display: flex;
+  margin: 20px 0px;
+}
+
+.content-image-home {
+  height: 90vmin;
+}
+
+.content-title {
+  margin-left: 90px;
+  margin-top: 140px;
+}
+
+.content-title p {
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 25px;
+  margin-left: 6px;
+}
+
+.content-button {
+  margin-left: 6px;
+  margin-top: 10px;
+  background-color: #da1a08;
+  border-radius: 20px;
+  width: 120px;
+  height: 40px;
+  color: white;
+  border: none;
+  font-weight: 500;
+  font-family: "VTF Font";
+}
+
+h2 {
+  font-family: "VTF Font";
+  text-align: center;
+}
+
+.team-container {
+  padding: 0px 100px;
+}
+
+.team-image-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-image {
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  margin-top: 40px;
+  padding: 30px;
+}
+
+.team-image:hover {
+  box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+.team-image img {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.players {
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+}
+
+.events {
+  margin: 70px 100px;
+}
+
+.events-image-container {
+  display: flex;
+}
+
+.events-image-home {
+  height: 120vmin;
+}
+
+.events-tabel {
+  margin-left: 50px;
+  width: 100%;
+  margin-top: 170px;
+  box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  padding: 25px;
+  height: 220px;
+}
+
+.tabel-header,
+.tabel-description {
+  display: flex;
+  /* justify-content: space-between; */
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.tabel-header p {
+  font-weight: 700;
+  color: #000000db;
+}
+
+.footer-container {
+  background-color: #1a1a1a;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 100px;
+}
+
+.footer-text {
+  color: #e4e1e1;
+  /* text-align: center; */
+}
+
+h3 {
+  color: #e4e1e1;
+}
+
+input {
+  background-color: #1a1a1a;
+  border: 1px solid lightgray;
+  padding: 0 10px;
+  border-radius: 6px;
+  width: 250px;
+  height: 40px;
+}
+
+.footer-logo {
+  width: 300px;
+}
+
+.social {
+  text-decoration: none;
+  color: #e4e1e1;
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
